@@ -202,7 +202,6 @@ onMounted(async () => {
   error.value = null;
 
   try {
-    const base = publicConfig?.apiBase || "https://api.jikan.moe/v4";
     const response = await axios.get(`${publicConfig.apiBase}/top/anime`, {
       params: {
         limit: 10,

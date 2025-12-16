@@ -110,7 +110,7 @@
 
 <script setup>
 import axios from "axios";
-import { useGemini } from "~/composables/useGemini";
+import { useGemini } from "../../../server/composables/useGemini";
 
 const { aiResponse, isGenerating, generateCreativeText } = useGemini();
 const route = useRoute();

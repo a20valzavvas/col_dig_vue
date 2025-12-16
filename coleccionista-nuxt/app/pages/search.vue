@@ -23,6 +23,7 @@
 </template>
 
 <script setup>
+import { useSearch } from "../../server/composables/useSearch";
 const store = useFavoritesStore();
 const { query, results, loading, error, search } = useSearch();
 const searched = ref(false);

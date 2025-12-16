@@ -1,3 +1,5 @@
+import { useApi } from "./useApi";
+
 export const useSearch = () => {
   const api = useApi();
 

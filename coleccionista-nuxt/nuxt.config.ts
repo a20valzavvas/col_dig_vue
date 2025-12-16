@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       apiBase: process.env.NUXT_PUBLIC_API_BASE || "https://api.jikan.moe/v4",
+      geminiKey: process.env.NUXT_PUBLIC_GEMINI_KEY,
     },
   },
   modules: ["@pinia/nuxt"],
